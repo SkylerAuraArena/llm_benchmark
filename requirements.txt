@@ -5,4 +5,4 @@ matplotlib==3.8.4
 plotly==5.22.0
 pip==24.2
 datasets==2.19.1
-sentence-transformers==3.1.0
+sentence_transformers==3.1.0
