@@ -1,0 +1,162 @@
+html {
+  font-size: 16px; /* Default setting, 1rem = 16px */
+}
+
+body {
+  font-family: 'Calibri', 'Arial', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #000000;
+}
+
+p, li {
+  text-align: justify;
+}
+
+code {
+  color: #1ec3bc;
+}
+
+#MainMenu {
+  display: none;
+}
+
+div[data-testid="stDecoration"] {
+  display: none;
+}
+
+img {
+  padding-top: 1vh;
+}
+
+footer {
+  margin-top: 1.5vh;
+  /* display: none; */
+}
+
+/* Radio buttons */
+
+.st-cc {
+  color: black;
+  font-weight: 500;
+}
+
+/* section[data-testid="stSidebar"] .st-bk {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+} */
+
+/* Sidebar */
+
+.logo {
+  /* margin-left: -25px; */
+}
+
+section[data-testid="stSidebar"] > div {
+  background-image: linear-gradient(  320deg, 
+  hsl(0, 0%, 20%) 0%, 
+  hsl(0, 0%, 25%) 21%, 
+  hsl(0, 0%, 30%) 30%, 
+  hsl(0, 0%, 35%) 39%, 
+  hsl(0, 0%, 40%) 46%, 
+  hsl(0, 0%, 45%) 54%, 
+  hsl(0, 0%, 50%) 61%, 
+  hsl(0, 0%, 55%) 69%, 
+  hsl(0, 0%, 60%) 79%, 
+  hsl(0, 0%, 65%) 100%);
+  padding-top: 2rem;
+  /* padding-left: 1.5rem; */
+}
+
+div[role="radiogroup"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section[data-testid="stSidebar"] button[title="View fullscreen"] {
+  display: none;
+}
+
+section[data-testid="stSidebar"] button[kind="icon"] {
+  display: none;
+}
+
+section[data-testid="stSidebar"] label[role="data-baseweb"] {
+  display: flex;
+  justify-content: center;
+}
+
+
+[data-testid="stSidebar"] label {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  background:	#F5F5F5;
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 20px;
+  box-shadow: -1.5px 0 .4em #D3D3D3;
+}
+
+section[data-testid="stSidebar"] label[data-testid="stWidgetLabel"] {
+  display: none;
+}
+
+section[data-testid="stSidebar"] hr {
+  margin-top: 30px;
+  border-color: white;
+  width: 50px;
+}
+
+section[data-testid="stSidebar"] h2 {
+  color: white;
+}
+
+/* Images */
+
+
+button[title="View fullscreen"] {
+  display: none;
+}
+
+/* hr */
+
+hr {
+  width: 200px;
+  border-width: 5px;
+  border-color: #10b8dd;
+  margin-top: 0px;
+}
+
+/* First Page */
+
+section[tabindex="0"] .block-container {
+  padding-top: 0px;
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
+
+div[data-testid="stAppViewBlockContainer"] {
+  /* max-width: 80%; */
+}
+
+/* About */
+.divrefs {
+  width: 30vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.spanrefs{
+  min-width: content-fit;
+}
