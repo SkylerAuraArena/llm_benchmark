@@ -6,3 +6,4 @@ plotly==5.22.0
 pip==24.2
 datasets==2.19.1
 sentence_transformers==3.1.0
+umap-learn==0.5.6
