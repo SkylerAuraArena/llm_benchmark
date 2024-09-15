@@ -1,0 +1,15 @@
+pandas
+matplotlib
+numpy
+asyncio
+tqdm
+dotenv
+sklearn
+seabord
+bert_score
+textstat
+ntlk
+rouge_score
+langchain_community
+langchain_core
+langchain_openai
